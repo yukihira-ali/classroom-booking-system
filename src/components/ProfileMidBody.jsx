@@ -103,7 +103,7 @@ export default function ProfileMidBody({ handleLogout }) {
                 </Modal.Header>
                 <Modal.Body>
                     <Form onSubmit={handleUpdatePost}>
-                        <Form.Group controlId="formContent">
+                        <Form.Group controlId="classRoom">
                             <Form.Label>Change Room</Form.Label>
                             <Form.Select
                                 type="text"
@@ -131,7 +131,7 @@ export default function ProfileMidBody({ handleLogout }) {
                             <Form.Label>Change Time In</Form.Label>
                             <Form.Control
                                 type="time"
-                                value={editData.timeout}
+                                value={editData.author}
                                 onChange={(e) => setEditData({ ...editData, time: e.target.value })}
                                 required
                             />

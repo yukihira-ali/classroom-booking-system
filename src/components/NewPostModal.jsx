@@ -46,6 +46,7 @@ export default function NewPostForm() {
                     value={postContent}
                     onChange={(e) => setPostContent(e.target.value)} // Update room type state
                 >
+                    <option value="">Select Classroom</option>
                     <option>Classroom A | Level 1 | 20 Pax</option>
                     <option>Classroom A | Level 1 | 20 Pax</option>
                     <option>Meeting room A | Level 2 | 5 Pax</option>
