@@ -5,7 +5,7 @@ import useLocalStorage from 'use-local-storage';
 import { useNavigate } from 'react-router-dom';
 
 export default function AuthPage() {
-    const loginImage = "src/assets/classroom.jpeg";
+    const loginImage = "https://wallpapers.com/images/featured/classroom-47m0khjt8s0p7c2s.jpg";
     const url = "https://aac26778-09b5-4ba2-be85-e3870501bd67-00-9ajs0y8jrg5j.pike.replit.dev";
 
     const [modalShow, setModalShow] = useState(null);
