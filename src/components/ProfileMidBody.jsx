@@ -65,6 +65,7 @@ export default function ProfileMidBody({ handleLogout }) {
                         <div className="mt-5" style={{ paddingLeft: "100px" }}>
                             <p style={{ fontWeight: "bold", fontSize: "18px" }}>Ali</p>
                             <p style={{ marginBottom: "2px" }}>@Ali_Asnawi</p>
+                            <p>Student ID: 4</p>
                             <p>I help people to be an instructor at sigmaschool.co</p>
                             <p>Final Year Student</p>
                             <Row className='justify-content-start'>
